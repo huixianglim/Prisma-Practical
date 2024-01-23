@@ -5,3 +5,6 @@ tasks:
 
   - name: Initialize Prisma
     command: npx prisma init --datasource-provider postgresql
+
+  - name: Initialize Prisma
+    command: npx install @prisma/cient
