@@ -2,3 +2,6 @@
 tasks:
   - name: Install Dependencies
     command: npm install --save-dev prisma typescript ts-node @types/node nodemon
+
+  - name: Initialize Prisma
+    command: npx prisma init --datasource-provider postgresql
